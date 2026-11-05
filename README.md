@@ -1,6 +1,13 @@
-# InterModeller · 鸿蒙 PC 原生应用
+# intermodeller-harmonyos-pc
 
-在 DevEco Studio 打开本目录 `E:\computerproject\pc`，入口模块为 `entry`。`ohos_intermodeller/` 是保留的上游参考仓库。
+InterModeller · 鸿蒙 PC 原生建模应用。克隆后，在 DevEco Studio 打开仓库根目录，入口模块为 `entry`。
+
+```bash
+git clone https://github.com/JZ-HX1/intermodeller-harmonyos-pc.git
+cd intermodeller-harmonyos-pc
+```
+
+本项目从 [personal-web](https://github.com/JZ-HX1/personal-web/tree/c12ecdde1cf9bcc2ea9c1fb85195863fa930021e/intermodeller-harmonyos-pc) 拆分，保留该目录的 Git 提交历史。工程文件已提升到仓库根目录，无需依赖个人网站或本机旧路径。
 
 本项目参考上游 [OpenHarmonyPCDeveloper/ohos_intermodeller](https://atomgit.com/OpenHarmonyPCDeveloper/ohos_intermodeller)，当前仓库提交的是面向 HarmonyOS PC 的原生 ArkUI 工程。上游目录、缓存和构建产物不纳入本仓库；上游项目未随源文件提供许可证声明，使用或再发布上游内容时请遵守其项目页面和贡献者要求。
 
